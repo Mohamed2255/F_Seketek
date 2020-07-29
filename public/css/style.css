@@ -1,0 +1,344 @@
+nav {
+    background-color: #3e87d6;;
+}
+
+.nav-link--border {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+header {
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 84vh;
+
+}
+
+.header-signIn {
+    background-image: url(../img/header1.jpg);
+
+}
+
+
+.signup-social {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-social_item {
+    width: 55%;
+    color:#ffffff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.signup-social_item:hover{
+    background-color: #ffffff;
+    text-decoration: none;
+
+}
+.signup-social_item:hover .signup-social-btn {
+    color:inherit;
+}
+.sign-social-google {
+    background-color: #db4a39;
+    margin-bottom: 30px;
+    
+}
+
+.sign-social-google:hover{
+    color: #db4a39;
+            
+}
+.sign-social-facebook:hover{
+    color: #3b5998;
+            
+}
+
+.sign-social-facebook {
+    background-color: #3b5998;
+    
+}
+
+.signup-social-icon {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    padding: 0.5rem 0.6rem;
+
+}
+
+.signup-social-btn {
+    color: #ffffff;
+    padding: .375rem 0.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.signup-form {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+
+
+}
+
+.signup-form__input  {
+    width: 85%;
+    height: calc(1.75em + .07rem + 2px);
+    border: 2px solid #318bda;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+    margin-left: 3px;
+
+
+}
+.signup-form__input1  {
+    width: 100%;
+    height: calc(2em + .07rem + 6px);
+    border: 2px solid #318bda;
+    border-radius: 0.5rem;
+    margin-right: 10px;
+    margin-left: 3px;
+
+
+}
+
+.signup-form__icon {
+    width: 30px;
+    height: 30px;
+    background-color: #318bda;
+    color: #ffffff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.signup-form__btn {
+    width: 50%;
+    border-radius: 0.5rem;
+    margin: auto;
+
+
+}
+
+.date:nth-child(2) {
+    width: 20%;
+}
+.date:nth-child(4) {
+    width: 30%;
+}
+.date:nth-child(6) {
+    width: 50%;
+}
+
+.copyright {
+    color: #318bda;
+    margin: auto;
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
+
+
+/* signin page */
+
+.signup-social-page {
+    height: auto;
+}
+
+.signIn-social {
+    width: 86%;
+
+}
+
+/* profile page */
+
+
+.overview {
+    background-image: url(../img/header.jpg);
+    min-height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user-img
+{
+    
+        border-radius: 50%;
+        width:300px;
+      
+}
+.car-img
+{
+    
+        height:200px;
+        width:500px;
+      margin-left: 150px;
+}
+
+
+
+.media-body {
+color: #318bda;
+font-weight: 900;
+}
+
+.info-item {
+    display: flex;
+    width: 50%;
+    align-items: baseline;
+}
+
+.info-item:nth-of-type(3) {
+    width: 100%;
+    
+}
+
+.info-item i {
+    margin-right: 5px;
+    color: #318bda;
+}
+
+.info-item p {
+    font-weight: 700;
+
+}
+/* .info-item p:nth-child(4) {
+margin-bottom: 0;
+} */
+.info-item i:last-of-type {
+    margin-left: 30px;
+
+}
+
+
+
+.driver-info, .contacts {
+    border-top: 1px solid #eee;
+}
+
+.lable {
+    width: 193px;
+    height: 193px;
+    line-height: 193px;
+    background-image: url(../img/trip\ label.png);
+    background-size: cover;
+    text-align: center;
+    font-size: 443%;
+    font-weight: 700;
+    color: white;
+    margin-right: 2rem;
+    background-position: center;
+
+}
+
+
+.table {
+    border-radius: 20px 0 0 0;
+
+}
+
+thead {
+    background-color: #318bda;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    border-radius: 20px 0 0 0;
+}
+.table td {
+    background-color: #6e8ce5;
+
+}
+
+.table td, .table th {
+    border-right: 3px solid #FFF; 
+    border-left: 3px solid #FFF;
+    border-top: 3px solid #FFF;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding: 0;
+}
+
+
+/* admin page */
+
+.admin-main {
+    height: 73.7vh;
+}
+
+.choose {
+    width: 200px;
+    margin: auto;
+    background-color: #318bda;
+    color: white;
+    font-weight: 900;
+}
+
+.options {
+    background: none;
+    display: flex;
+
+}
+.options .btn{
+    width: 80px;
+    color: white;
+    background-color: #318bda;
+    padding: 0.1rem 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 20px;
+}
+
+
+.footer
+{
+  margin-top: 5px;
+  background-color: #3e87d6;
+height: 75px;
+  color: #fff;
+}
+
+.about{
+	cursor: pointer;
+	
+	color: #000000;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.about h1 {
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+.about h2 {
+    margin-top: 20px;
+	opacity: .8;
+}
+
+.about-item:hover img{
+	opacity: 1;	
+	-webkit-transform: scale(1.1,1.1) rotate(360deg) ;
+	-moz-transform: scale(1.1,1.1) rotate(360deg) ;
+	-o-transform: scale(1.1,1.1) rotate(360deg) ;
+	transform: scale(1.1,1.1) rotate(360deg) ;
+}
+.about-item:hover h2{
+	opacity: 1;
+	-webkit-transform: scale(1.1,1.1)  ;
+	-moz-transform: scale(1.1,1.1)  ;
+	-o-transform: scale(1.1,1.1)  ;
+	transform: scale(1.1,1.1) ;
+}
+.carimage
+{
+color: #318bda;
+}
